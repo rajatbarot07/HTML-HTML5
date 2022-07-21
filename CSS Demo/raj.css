@@ -1,0 +1,38 @@
+div{
+    background: blue;
+    color: white;
+}
+#que{
+    font-style: italic;
+    color: black;
+}
+#quote {
+       
+       font-style: italic;
+       color: black;
+}
+
+.places{
+    color: white;
+    background: black;
+}
+
+.world{
+    color: yellow;
+    background: slategrey;
+}
+
+span#author{
+    text-transform: uppercase;
+}
+
+#games ol li {
+        color: skyblue;
+        background: black;
+}
+
+
+#games ul li{
+    color: black ;
+    background: goldenrod;
+}

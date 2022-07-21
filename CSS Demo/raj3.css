@@ -1,0 +1,40 @@
+#container{
+    background: #1cdbe9;
+    color: black;
+    border: 2px solid red;
+    border-radius: 8px;
+
+}
+#default{
+    text-align: left;
+}
+
+#centered{
+    text-align: center;
+}
+#centered-text{
+    text-align: right;
+}
+
+
+#fixed-position{
+    position: fixed;
+    background: grey;
+
+}
+/*#bottom-right{
+    background: white;
+    color: tomato;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 5;
+}
+#top-left{
+    background: black;
+    color: white;
+    border: 2px solid green;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+}
