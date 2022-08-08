@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*
+		{
+			box-sizing: border-box;
+		}
+		body
+		{
+			margin: 0;
+			padding: 0;
+			
+		}
+		.main
+		{
+           height: 700px;
+           width: 100%;
+           background: black;
+           position: relative;
+
+		}
+	    .main .main1
+		{
+			height: 400px;
+			width: 400px;
+			background: black;
+			top: 150px;
+			left: 550px;
+			border: 20px solid transparent;
+			border-top:20px solid red;
+			border-radius: 50%;
+			position: absolute;
+			animation: clockwise 3s linear infinite;
+		}
+		.main .main2
+		{
+			height: 330px;
+			width: 330px;
+			background: black;
+			border: 20px solid transparent;
+			border-top:20px solid blue;
+			position: absolute;
+			border-radius: 50%;
+			top: 185px;
+			left: 585px;
+			animation: anticlockwise 3s linear infinite;
+		}
+		.main .main3
+		{
+			height: 260px;
+			width: 260px;
+			background: black;
+			border: 20px solid transparent;
+			border-top:20px solid yellow;
+			position: absolute;
+			top: 220px;
+			left: 620px;
+			border-radius: 50%;
+			animation: clockwise 2s linear infinite;
+		}
+		.main .main4
+		{
+			height: 190px;
+			width: 190px;
+			background: black;
+			border: 20px solid transparent;
+			border-top:20px solid green;
+			position: absolute;
+			top: 255px;
+			left: 655px;
+			border-radius: 50%;
+			animation: anticlockwise 2s linear infinite;
+		}
+		@keyframes clockwise
+		{
+			from{transform: rotate(0deg);}
+			to{transform: rotate(360deg);}
+		}
+		@keyframes anticlockwise
+		{
+			from{transform: rotate(360deg);}
+			to{transform: rotate(0deg);}
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+    
+        <div class="main1"></div>
+    	<div class="main2"></div>
+    	<div class="main3"></div>
+    	<div class="main4"></div>
+    </div>
+</body>
+</html>
